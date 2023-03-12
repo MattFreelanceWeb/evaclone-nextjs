@@ -1,12 +1,12 @@
 import Footer from '@/components/footer/Footer'
-import Navigation from '@/components/navigation/Navigation'
+import NavigationMobile from '@/components/navigation/NavigationMobile'
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-    <Navigation/>
+    <NavigationMobile/>
       <Component {...pageProps} />
     <Footer/>
     </>

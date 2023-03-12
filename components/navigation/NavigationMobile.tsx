@@ -7,7 +7,7 @@ import Connection from "../connection/Connection";
 
 type Props = {};
 
-function Navigation({}: Props) {
+function NavigationMobile({}: Props) {
   const [toggle, setToggle] = useState<Boolean>(false);
 
   const menuMobile = [
@@ -120,4 +120,4 @@ function Navigation({}: Props) {
   );
 }
 
-export default Navigation;
+export default NavigationMobile;
