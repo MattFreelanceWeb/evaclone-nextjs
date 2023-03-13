@@ -35,7 +35,7 @@ function NavigationMobile({}: Props) {
 
   return (
     <>
-      <nav className="w-full fixed bottom-0 bg-[#0c0c10] px-2 pb-1 flex text-white gap-6 items-center justify-center md:hidden">
+      <nav className="w-full fixed bottom-0 bg-[#0c0c10] px-2 pb-1 flex text-white gap-6 items-center justify-center md:hidden z-50">
         <ul className="flex items-center justify-center gap-6 text-white relative h-16 ">
           {menuMobile.map((item, i) => (
             <li key={i} className={`z-10  ${i === 2 ? "" : ""} `}>
