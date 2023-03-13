@@ -4,7 +4,7 @@ type Props = {}
 
 function oujouer({}: Props) {
   return (
-    <div>oujouer</div>
+    <div className='pt-0 md:pt-32 xl:pt-24'>oujouer</div>
   )
 }
 

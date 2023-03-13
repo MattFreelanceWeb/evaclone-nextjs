@@ -21,7 +21,7 @@ function NavigationMobile({}: Props) {
     { name: "Salles", icon: "", href: "/oujouer" },
     { name: "Tarifs", icon: "", href: "/tarifs" },
     { name: "Battle Pass", icon: "shield-outline", href: "/battlepass" },
-    { name: "Carte cadeau", icon: "", href: "/cartecadeau" },
+    { name: "Carte cadeau", icon: "gift-outline", href: "/cartecadeau" },
     { name: "Privatisation", icon: "", href: "#" },
     { name: "Coupe de france", icon: "", href: "/coupedefrance" },
   ];

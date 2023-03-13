@@ -4,7 +4,7 @@ type Props = {}
 
 function jobs({}: Props) {
   return (
-    <div>jobs</div>
+    <div className='pt-0 md:pt-32 xl:pt-24'>jobs</div>
   )
 }
 

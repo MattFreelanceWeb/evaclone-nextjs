@@ -4,7 +4,7 @@ type Props = {}
 
 function battlepass({}: Props) {
   return (
-    <div>battlepass</div>
+    <div className='pt-0 md:pt-32 xl:pt-24'>battlepass</div>
   )
 }
 

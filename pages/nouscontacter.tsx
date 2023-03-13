@@ -4,7 +4,7 @@ type Props = {}
 
 function nouscontacter({}: Props) {
   return (
-    <div>nouscontacter</div>
+    <div className='pt-0 md:pt-32 xl:pt-24'>nouscontacter</div>
   )
 }
 
