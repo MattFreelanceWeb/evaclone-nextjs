@@ -7,7 +7,7 @@ type Props = {};
 
 function Community({}: Props) {
   return (
-    <section className="w-screen  flex flex-col lg:flex-row lg:h-screen items-center justify-center relative ">
+    <section className="w-screen flex flex-col lg:flex-row lg:h-screen items-center justify-center relative py-12 overflow-hidden">
       <div className="w-full lg:w-1/2 h-full relative flex flex-col items-start justify-center gap-8 p-12 text-xl ">
       <Image src={'https://www.eva.gg/static/media/lines-2.48fbb854.svg'} alt={''} width={82} height={208} className='absolute bottom-2 left-2 z-20'/>
       <Image src={'https://www.eva.gg/static/media/lines-7.6be4c5cc.svg'} alt={''} width={82} height={208} className='absolute top-4 right-2 lg:right-10 z-20 -rotate-90'/>
@@ -23,7 +23,7 @@ function Community({}: Props) {
         <Link
           href="https://discord.com/invite/zAJCrKH6qm"
           target={"_blank"}
-          className="bg-blue-400 px-8 py-6 rounded-lg text-white flex items-center text-2xl "
+          className="bg-blue-400 px-8 py-6 rounded-lg text-white flex items-center text-xl "
         >
           {" "}
           <span className="mx-4">

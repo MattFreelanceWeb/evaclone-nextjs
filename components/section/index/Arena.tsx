@@ -7,7 +7,7 @@ type Props = {};
 function Arena({}: Props) {
   return (
     <section className="w-screen  flex flex-col lg:flex-row items-center justify-start relative text-white bg-black  ">
-      <div className="h-screen w-full bg-black/40 absolute z-10"/>
+      <div className="h-full w-full bg-black/40 absolute z-10"/>
       <Image
         src={
           "https://www.eva.gg/static/media/BLASTAFOREVA_BG_Desktop_OPTI.396ea5f7.webp"

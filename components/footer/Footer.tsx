@@ -53,35 +53,35 @@ function Footer({}: Props) {
       <div className="w-full flex flex-col md:flex-row items-start  justify-center gap-x-20 gap-y-10 flex-wrap">
         <ul className="flex flex-col items-start justify-center gap-4">
           {footerColOne.map((item, i) => (
-            <li key={i}>
+            <li key={i} className=' flex flex-col after:content-[""] after:border-[1px] after:scale-0 after:hover:scale-100 duration-300 overflow-hidden'>
               <Link href={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
         <ul className="flex flex-col items-start justify-center gap-4">
           {footerColTwo.map((item, i) => (
-            <li key={i}>
+            <li key={i} className=' flex flex-col after:content-[""] after:border-[1px] after:scale-0 after:hover:scale-100 duration-300 overflow-hidden'>
               <Link href={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
         <ul className="flex flex-col items-start justify-center gap-4">
           {footerColThree.map((item, i) => (
-            <li key={i}>
+            <li key={i} className=' flex flex-col after:content-[""] after:border-[1px] after:scale-0 after:hover:scale-100 duration-300 overflow-hidden'>
               <Link href={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
         <ul className="flex flex-col items-start justify-center gap-4">
           {footerColFour.map((item, i) => (
-            <li key={i}>
+            <li key={i} className=' flex flex-col after:content-[""] after:border-[1px] after:scale-0 after:hover:scale-100 duration-300 overflow-hidden'>
               <Link href={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
         <ul className="flex flex-col items-start justify-center gap-4">
           {footerColFive.map((item, i) => (
-            <li key={i}>
+            <li key={i} className=' flex flex-col after:content-[""] after:border-[1px] after:scale-0 after:hover:scale-100 duration-300 overflow-hidden'>
               <Link href={item.href}>{item.name}</Link>
             </li>
           ))}

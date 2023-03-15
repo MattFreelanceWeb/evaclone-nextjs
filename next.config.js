@@ -8,7 +8,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'www.eva.gg',
+        hostname: 'www.eva.gg ', 
       },
     ],
   },
