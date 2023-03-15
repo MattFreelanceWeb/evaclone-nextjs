@@ -14,7 +14,7 @@ function Esport({}: Props) {
         <Image src={'https://www.eva.gg/static/media/Alpha-afterH.d4aad651.webp'} alt={''} width={1821} height={1019} className='object-cover min-h-[432px] h-full'/>
       </div>
       <div className='w-full lg:w-1/2 h-full relative flex flex-col items-center justify-center gap-6 p-12 text-xl text-white'>
-        <h2 className='uppercase text-5xl font-bold text-center'>EVA: Le futur de l&apos;esport</h2>
+        <h2 className='uppercase text-5xl font-bold '>EVA: Le futur de l&apos;esport</h2>
         <p><strong>Nouvelle discipline esportive</strong> , EVA propose une expérience unique au monde d&apos;esport VR.</p>
         <p>De vraies arènes pour de vraies compétitions : <strong>préparez-vous à entrer sur un terrain de 500 m2 et affrontez d&apos;autres joueurs dans cette toute nouvelle ère !</strong> </p>
         <p>Entraînez-vous, montez en compétences pour devenir le champion de l&apos;Arène !</p>

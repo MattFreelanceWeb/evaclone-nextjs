@@ -11,7 +11,7 @@ type Props = {};
 
 function Battlepass({}: Props) {
   return (
-    <section className="w-screen  flex flex-col md:flex-row lg:justify-start items-center justify-center relative bg-gradient-to-b from-[#060322] to-[#1d1c3d] text-white  py-20">
+    <section className="w-screen  flex flex-col md:flex-row lg:justify-start items-center justify-center relative bg-gradient-to-b from-[#060322] to-[#1d1c3d] text-white  py-20 overflow-hidden">
       <Image
         src={
           "https://www.eva.gg/static/media/battlepass-group-background.edae1b07.webp"

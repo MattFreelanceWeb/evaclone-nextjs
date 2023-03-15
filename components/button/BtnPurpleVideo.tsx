@@ -20,7 +20,7 @@ function BtnPurpleVideo({ content, className }: Props) {
         {content}
       </button>
       <div
-        className={`bg-black/80 w-screen h-screen top-0 left-0 fixed  duration-300 flex items-center justify-center ${
+        className={`bg-black/80 w-full h-screen top-0 left-0 fixed  duration-300 flex items-center justify-center ${
           toggle ? " scale-100 z-10 flex" : "scale-0 -z-10"
         }`}
       >
