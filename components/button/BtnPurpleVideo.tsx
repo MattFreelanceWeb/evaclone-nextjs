@@ -25,7 +25,7 @@ function BtnPurpleVideo({ content, className }: Props) {
         }`}
       >
         <button onClick={()=>{setToggle(!toggle)}} className='fixed top-28 '><IonIcon name='close' size='large'/></button>
-        <iframe  src={`https://www.youtube.com/embed/blIsKcLWF5w?${toggle ? 'autoplay=1' :''}`} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  className={`absolute -z-10 aspect-video w-80 md: w-[500px] ${toggle? 'flex': 'hidden'}`}/>
+        <iframe  src={`https://www.youtube.com/embed/blIsKcLWF5w?${toggle ? 'autoplay=1' :''}`} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  className={`absolute -z-10 aspect-video w-80 md:w-[500px] ${toggle? 'flex': 'hidden'}`}/>
       </div>
     </>
   );
