@@ -35,6 +35,9 @@ function NavigationMobile({}: Props) {
 
   return (
     <>
+      <div className="fixed top-2 left-2 text-white z-50 md:hidden">
+        <Connection/>
+      </div>
       <nav className="w-full fixed bottom-0 bg-[#0c0c10] px-2 pb-1 flex text-white gap-6 items-center justify-center md:hidden z-50">
         <ul className="flex items-center justify-center gap-6 text-white relative h-16 ">
           {menuMobile.map((item, i) => (
