@@ -1,9 +1,9 @@
 import IonIcon from '@reacticons/ionicons';
 import React, { useState } from 'react'
 
-type Props = {content:any[], iconName:string, placeHolder:string}
+type Props = {content:any[], iconName:string, placeHolder:string,Region?:Function}
 
-function SelectInput({content, iconName, placeHolder}: Props) {
+function SelectInput({content, iconName, placeHolder,Region}: Props) {
     const [toggle, setToggle] = useState<boolean>(false);
     const [chooseContent, setChooseContent] = useState<string | undefined>();
 
@@ -20,6 +20,7 @@ function SelectInput({content, iconName, placeHolder}: Props) {
             key={i}
             onClick={() => {
               setChooseContent(item.name );
+              {Region && Region(item.name)}
               setToggle(!toggle)
             }}
             className='cursor-pointer'

@@ -6,6 +6,7 @@ import SelectInput from "../button/SelectInput";
 type Props = {};
 
 function Footer({}: Props) {
+  
   const date = new Date()
   let year =date.getFullYear()
 
@@ -23,9 +24,9 @@ function Footer({}: Props) {
   ];
 
   const footerColThree = [
-    { name: "Nos jeux", icon: "", href: "#" },
-    { name: "After-H Battle Arena", icon: "", href: "#" },
-    { name: "After-H Battle Zombies", icon: "", href: "#" },
+    { name: "Nos jeux", icon: "", href: "#games" },
+    { name: "After-H Battle Arena", icon: "", href: "#games" },
+    { name: "After-H Battle Zombies", icon: "", href: "#games" },
   ];
 
   const footerColFour = [

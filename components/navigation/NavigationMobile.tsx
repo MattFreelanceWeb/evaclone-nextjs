@@ -12,7 +12,7 @@ function NavigationMobile({}: Props) {
 
   const menuMobile = [
     { name: "Accueil", icon: "home-outline", href: "/" },
-    { name: "Jeux", icon: "game-controller-outline", href: "#" },
+    { name: "Jeux", icon: "game-controller-outline", href: "#games" },
     { name: "Réserver", icon: "calendar-outline", href: "/oujouer" },
     { name: "Battle Pass", icon: "shield-outline", href: "/battlepass" },
   ];
@@ -21,7 +21,7 @@ function NavigationMobile({}: Props) {
     { name: "Salles", icon: "", href: "/oujouer" },
     { name: "Tarifs", icon: "", href: "/tarifs" },
     { name: "Battle Pass", icon: "shield-outline", href: "/battlepass" },
-    { name: "Carte cadeau", icon: "gift-outline", href: "/cartecadeau" },
+    { name: "Carte cadeau", icon: "gift", href: "/cartecadeau" },
     { name: "Privatisation", icon: "", href: "#" },
     { name: "Coupe de france", icon: "", href: "/coupedefrance" },
   ];
@@ -97,7 +97,7 @@ function NavigationMobile({}: Props) {
                   }}
                   className="font-bold text-2xl"
                 >
-                  <Link href={item.href}>{item.name}</Link>
+                  <Link href={item.href} className='flex gap-2' >{item.name}<IonIcon name={item.icon} /></Link>
                 </li>
               ))}
             </ul>
@@ -110,7 +110,7 @@ function NavigationMobile({}: Props) {
                   }}
                   className="font-semibold"
                 >
-                  <Link href={item.href}>{item.name}</Link>{" "}
+                  <Link href={item.href}>{item.name} </Link>{" "}
                 </li>
               ))}
             </ul>

@@ -30,7 +30,7 @@ function Games({}: Props) {
   ];
 
   return (
-    <section className="w-screen flex flex-col items-center justify-center relative bg-[#1d1c2b]  text-white gap-8 py-20 px-12">
+    <section className="w-screen flex flex-col items-center justify-center relative bg-[#1d1c2b]  text-white gap-8 py-20 px-12" id="games">
       <Image
         src={
           "https://www.eva.gg/static/media/alpha-white-gradient.08f36171.svg"

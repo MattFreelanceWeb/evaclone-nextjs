@@ -11,7 +11,7 @@ type Props = {};
 function NavigationDesktop({}: Props) {
   const menuDesktop = [
     { name: "Salles", icon: "home-outline", href: "/oujouer" },
-    { name: "Nos Jeux", icon: "home-outline", href: "#" },
+    { name: "Nos Jeux", icon: "home-outline", href: "#games" },
     { name: "Battle Pass", icon: "home-outline", href: "/battlepass" },
     { name: "Tarifs", icon: "home-outline", href: "/tarifs" },
     { name: "Carte Cadeau", icon: "gift", href: "/cartecadeau" },
